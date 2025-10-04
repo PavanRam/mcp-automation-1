@@ -1,0 +1,15 @@
+[project]
+name = "mcp-assignment-1"
+version = "0.1.0"
+description = "MCP for exploring creating presentation and sending email"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-auth-oauthlib>=1.2.2",
+    "google-genai>=1.41.0",
+    "google-generativeai>=0.8.5",
+    "mcp[cli]>=1.15.0",
+    "python-dotenv>=1.1.1",
+    "pywin32>=311",
+    "pywinauto>=0.6.9",
+]
